@@ -1,4 +1,4 @@
-![Avatar](Путь к файлу "Подпись")
+![Avatar]( https://i.ibb.co/41ywzF8/8d90cbf8-9ae5-4cd5-a2b9-033bd4f198d7.jpg  "Avatar")
 
 # Victoria Kharitonovskaya
 
