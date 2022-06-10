@@ -9,6 +9,7 @@
 #### E-mail:  thekellin@gmail.com
 
 #### Discord:  Aelwen (@Vericia)
+#### Telegram: @Vericia
   
 ====
 
