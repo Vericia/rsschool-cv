@@ -1,6 +1,182 @@
+
 body {
-background-color:blue;
+  background-color: #E5E4E2; 
+  padding: 15px;
+  position: relative;
+  text-align: center;
 }
+
+.hr-line {
+	width: 50%
+  margin: 0 25% 0 25%; 
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-weight: 700;	
+}
+
+h1 {
+		font-size: 38px;
+		font-weight: 700;
+		margin: 20px 0;
+    color: #DAA520;
+}
+
+h2 {
+		font-size: 20px;
+    color: 	#808000;
+}
+
+h3 {
+font-size: 18px;
+color: #808000;
+}
+
 p {
-text-align:center;
+font-family: 'Crimson Text', sans-serif;
+font-size: 18px;
+text-align: justify;
+color: dark grey;
+margin-top: 0;
+margin-bottom: 0; 
 }
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content:  center; 
+  margin: auto 0;
+  list-style-type: none; 
+}
+
+.nav-link {
+  display: inline-block;
+  text-decoration: none;  
+  color: #808000;
+  background-color: #F0FFF0;
+  border-bottom: 1px solid #008080;
+  padding: 5px 10px;
+  margin-right: -2px;
+  line-height: 10px;
+  transition: color 0.2s;
+  height: 20px;  
+}
+
+a:hover{
+background: #E6E6FA;
+color: #008080; 
+}
+
+.language-list {
+list-style-type: square;
+}
+
+.main-container {  
+  display: flex;
+  width: 550px;
+  margin: 0 auto;  
+  flex-direction: row;  
+  flex-wrap: nowrap;
+  column-gap: 20px;    
+}
+
+.right-column {
+  width: 60%; 
+  justify-content: end; 
+  border-left: 1px dotted;
+  padding-left: 10px;  
+  border-image: linear-gradient(5deg, #E5E4E2 0%, #808080	20%, #E5E4E2	80%) 20% / 1 / 0 stretch;
+}
+
+.left_column {    
+		width: 40%;
+		justify-content: start;     
+    padding-right: 10px;   
+}
+
+.avatar {
+ border-radius: 80%;
+ width: 150px;
+ opacity: 0.9;
+ max-width: 100%;
+}
+
+.section-title{
+margin: 20px;
+text-align:justify;
+text-transform: uppercase;
+letter-spacing: 3px; 
+}
+
+.cv-profession {
+margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+/* Container for skill bars */
+.bars {
+    width: 50%;  
+    background-color: #E5E4E2; 
+}
+
+.skills {
+    text-align: right;  /* Right-align text */
+    font-weight: 700;
+    padding-right: 10px; /* Add some right padding */
+    line-height: 20px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: #2F4F4F;   
+    border-radius: 20px;
+}
+
+.html {width: 75%; background-color: #008080;  
+} 
+.css {width: 70%; background-color: #008080;
+} 
+.js {width: 20%; background-color: #008080;
+} 
+.photoshop {width: 40%; background-color: #008080;
+} 
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  margin: 0 auto;
+  padding: auto 15px;  
+}
+
+.github-link {
+  width: 160px; 
+  margin: 20px 15px;  
+  color: #2F4F4F;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.portfolio {
+text-align: center;
+font-weight: 700;
+font-family: 'Lato', Helvetica, sans-serif;
+}
+
+.logo {
+  width: 80px;
+  margin-left: 20px;
+}
+
+.year {
+  margin: auto 40px;  
+ }
